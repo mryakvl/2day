@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap');
+@font-face {
+    font-family: 'Neutral Face'; 
+    src: url("../fonts/NeutralFace.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto
+}
+.section-header .header-menu .one{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+.section-header .header-menu .two{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+.section-header .header-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+.section-header .header-menu .one p{
+    font-family: 'Neutral Face';
+    font-size: 14px;
+    line-height: 14px;
+    padding-left: 15px;
+}
+.section-header .header-menu .logo{
+    font-family: 'Neutral Face';
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.section-header .header-menu .two i{
+    color: black;
+    padding-right: 30px;
+}
+.section-header .navigation{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.section-header .text{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0 23px 0;
+}
+.section-header .navigation .text a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Neutral Face';
+    font-size: 14px;
+    line-height: 14px;
+
+}
+.section-header .header-info .txt{
+    display: flex;
+    align-items: center;
+    height: 138px;
+    
+    margin-top: 85px;
+    margin-bottom: 45px;
+}
+.section-header .header-info h2{
+    font-family: 'Neutral Face';
+    font-size: 138px;
+}
+.section-header .header-info p{
+    font-family: 'Manrope';
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 75px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.section-monochrom{
+    margin-top: 167px;
+}
+.section-monochrom .title h2{
+    font-family: 'Neutral Face';
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.section-monochrom .monochrom-info{
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+}
+.section-monochrom .monochrom-info .two, .three{
+    margin-left: 30px;
+}
+.section-monochrom .monochrom-info p{
+    font-family: 'Manrope';
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.section-collection .container{
+    background: url(../img/6.jpg);
+    margin-top: 160px;
+    height: 700px;
+    width: 1440px;
+}
+.section-collection .title{
+    padding-top: 120px;
+    text-align: center;
+}
+.section-collection .title h2{
+    font-family: 'Neutral Face';
+    font-size: 70px;
+    color: white;
+    letter-spacing: 7px;
+    font-weight: 500
+}
+.section-collection .collection-info p{
+    font-family: 'Manrope';
+    font-size: 22px;
+    line-height: 31px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-weight: 500;
+}
+.section-collection .collection-info a{
+    background-color: white;
+    font-family: 'Neutral Face';
+    font-size: 14px;
+    padding: 25px 50px 25px 50px;
+    text-decoration: none;
+    color: black;
+}
+.section-collection .collection-info .button{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.section-new{
+    margin-top: 165px;
+}
+.section-new .title h2{
+    font-family: 'Neutral Face';
+    font-size: 70px;
+    line-height: 84px;
+}
+.section-new .title :nth-child(2){
+    margin-left: 450px;
+}
+.section-new .new-info{
+    margin-top: 60px;
+}
+.section-new .new-info :nth-child(2){
+    
+}
